@@ -1,4 +1,4 @@
-name: Build Android APK
+name: Build UKG AI Assistant
 
 on:
 workflow_dispatch:
@@ -27,5 +27,5 @@ uses: actions/checkout@v4
   - name: Upload web build
     uses: actions/upload-artifact@v4
     with:
-      name: rawan-ai-web-build
+      name: ukg-ai-web-build
       path: dist/
